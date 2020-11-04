@@ -5,7 +5,7 @@ def canPermutePalindrome(s: str) -> bool:
 	table = buildCharFrequencyTable(s)
 	return checkMaxOneOdd(table)
 
-def chackMaxOneOdd(table: dict) -> bool:
+def checkMaxOneOdd(table: dict) -> bool:
 	foundOdd = False
 	for count in table.values():
 		if count % 2 == 1:
