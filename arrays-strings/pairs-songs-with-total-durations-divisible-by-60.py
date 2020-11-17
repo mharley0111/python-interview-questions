@@ -1,4 +1,5 @@
 from typing import List
+import collections
 
 def numPairsDivisibleBy60(time: List[int]) -> int:
 	remainders = collections.defaultdict(int)
